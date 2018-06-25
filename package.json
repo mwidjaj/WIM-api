@@ -7,9 +7,20 @@
     "start": "nodemon --exec babel-node -- src/index.js"
   },
   "devDependencies": {
+    "add": "^2.0.6",
     "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.5",
     "babel-preset-env": "^1.7.0",
-    "nodemon": "^1.17.5"
+    "eslint": "^5.0.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-prettier": "^2.6.1",
+    "eslint-plugin-react": "^7.10.0",
+    "nodemon": "^1.17.5",
+    "prettier": "^1.13.5",
+    "yarn": "^1.7.0"
   },
   "dependencies": {
     "express": "^4.16.3"
