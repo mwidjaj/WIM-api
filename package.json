@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "wim-api",
+=======
+  "name": "WIM-api",
+>>>>>>> 9d7cecae42c94cb28ff2f48faf628126abc51d03
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -23,6 +27,7 @@
     "yarn": "^1.7.0"
   },
   "dependencies": {
+<<<<<<< HEAD
     "bcrypt": "^2.0.1",
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.3",
@@ -31,5 +36,8 @@
     "jsonwebtoken": "^8.3.0",
     "mongo": "^0.1.0",
     "mongoose": "^5.1.6"
+=======
+    "express": "^4.16.3"
+>>>>>>> 9d7cecae42c94cb28ff2f48faf628126abc51d03
   }
 }
