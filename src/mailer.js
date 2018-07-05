@@ -2,7 +2,7 @@ import nodemailer from 'nodemailer';
 
 const from = '"WIM-Motors" <info@wimmotors.com>';
 
-function setufp() {
+function setup() {
     return nodemailer.createTransport({
         host: process.env.EMAIL_HOST,
         port: process.env.EMAIL_PORT,
@@ -22,7 +22,7 @@ export function sendConfirmationEmail(user) {
         text: `
         Welcome to WIM-Motors. Please, confirm your email.
         
-        ${user.generateConfirmationUrl}
+        ${user.generateConfirmationUrl()}
         `
     }
 
